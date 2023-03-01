@@ -6,12 +6,13 @@
 </head>
 <body>
 <script>
-    let i
-    let text = "";
-    for (i = 0; i < 5; i++) {
-        text += "The number is " + i + "<br>";
+    let num = prompt('Enter a number:','');
+    let total= 0;
+    while (num != -1){
+        total = total + num
     }
-    document.write(text);
+    alert("total: "+ total)
+
 </script>
 </body>
 </html>
